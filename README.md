@@ -1,2 +1,2 @@
-# Virtual-lab
-virtual lab for REC
+# MiniProjects by VIGNESH KUMAR S
+

@@ -88,6 +88,6 @@ def animate(i):
     ax.plot(Airfoil.real, Airfoil.imag) 
     return cp
 anim = FuncAnimation(fig,animate,np.arange(-15,15),repeat=False)
-#anim.save('animation.mp4', writer=FFMpegWriter())
+#anim.save('animation.mp4', writer=FFMpegWriter())         #if file not find error occurs u need ffmpeg in python directory
 plt.show()
         

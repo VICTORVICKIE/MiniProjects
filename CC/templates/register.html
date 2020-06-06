@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Campus Coins</title>
+</head>
+<body>
+	<div class="container">
+		<form method="POST" action="">
+			<div class="form-label-group">
+				<label for="inputName">Full Name</label>
+				<input type="text" id="inputName" name="name" class="form-control" placeholder="Full name" required="required" autofocus="autofocus" value={{request.form.name}}>
+			</div>
+			<br>
+			<br><div class="form-label-group">
+				<label for="inputUsername">Username</label>
+				<input type="text" id="inputUserame" name="username" class="form-control" placeholder="Username" required="required" autofocus="autofocus" value={{request.form.username}}>
+			</div>
+			<br>
+			<br><div class="form-label-group">
+				<label for="inputEmail">Email address</label>
+				<input type="text" id="inputEmail" name="email" class="form-control" placeholder="Email" required="required" autofocus="autofocus" value={{request.form.email}}>
+			</div>
+			<br>
+			<br><div class="form-label-group">
+				<label for="inputPassword">Password</label>
+				<input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" required="required" autofocus="autofocus" value={{request.form.password}}>
+			</div>
+			<br>
+			<br><div class="form-label-group">
+				<label for="inputPassword">Confirm Password</label>
+				<input type="password" id="confirmPassword" name="confirm" class="form-control" placeholder="Confirm Password" required="required" autofocus="autofocus" value={{request.form.confirm}}>
+			</div>
+			<br>
+			<br><button type="submit" class="btn btn-primary btn-block">Register</button>
+		</form>
+	</div>
+</body>
+</html>

@@ -1,1 +1,1 @@
-p = "YOUR MYSQL ROOT PASSWORD"
+p = "VIGNESHkumar14"

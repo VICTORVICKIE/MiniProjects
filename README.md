@@ -1,2 +1,2 @@
-# MiniProjects by VIGNESH KUMAR S
+# MiniProjects: VIGNESH KUMAR S
 
